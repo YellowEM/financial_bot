@@ -2,6 +2,7 @@
 import telebot
 
 bot = telebot.TeleBot("5598305102:AAF68rW_fWOKLIPnrJhyQEzg8Zxokdmri4k")
+
 @bot.message_handler(commands= ['start', 'help'])
 def start(message):
     bot.send_message(message.chat.id, 'Приветствую тебя, путник, в обработке твоих зелёных деньжат. Будь добр, следи инструкциям:'
