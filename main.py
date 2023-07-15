@@ -9,6 +9,7 @@ def start(message):
                     'Пример добавления расхода: 100 магазин'
                      "Траты сегодня: ")
 
+
 @bot.message_handler()
 def user_text(message):
     bot.send_message(message.chat.id)
