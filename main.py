@@ -10,6 +10,7 @@ def start(message):
                      "Траты сегодня: ")
 
 
+
 @bot.message_handler()
 def user_text(message):
     bot.send_message(message.chat.id)
